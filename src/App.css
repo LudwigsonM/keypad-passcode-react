@@ -1,17 +1,5 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -27,12 +15,37 @@
 .App-link {
   color: #61dafb;
 }
+button{
+  padding: 25px;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background-position: center;
+  background-image: url('https://static.wikia.nocookie.net/every-universe/images/7/7b/Naruto_Uzumaki_Kurama_01.png/revision/latest?cb=20170419081013');
+}
+
+.line-1{
+  color: grey;
+  background-color: ivory;
+  align-items: center;
+  margin: 1px;
+}
+.line-2{
+  color: grey;
+  background-color: ivory;
+  align-items: center;
+  margin: 1px;
+  
+}
+.line-3{
+  color: grey;
+  background-color: ivory;
+  align-items: center;
+  margin: 1px;
+}
+.line-4{
+  color: grey;
+  background-color: ivory;
+  align-items: center;
+  margin: 1px;
 }
